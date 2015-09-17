@@ -1,3 +1,38 @@
 body {
-	background-color: blue;
+	background-color: #B51E1E; 
+	font-family: 'Oswald', sans-serif;
+	color: #195184;
+	background:url('images/wonder-woman.jpg');
+	background-attachment: fixed;
 }
+img {
+	max-width: 100%;
+}
+.container {
+    width: 550px;
+    background: white;
+    padding: 15px;
+    margin: 200px auto;
+    border: 20px solid #DAA520;
+    border-right: 20px solid #195184;
+    
+}
+a{
+	color:#B51E1E;
+	text-decoration: none;
+
+
+}
+ a:hover {
+	font-style: italic;
+	background-color: yellow
+}
+ul { list-style-type: none;
+padding-left: 0;
+}
+
+h2 { color: #195184;}
+#table-of-contents li {
+	margin-bottom: 0;
+}
+* {box-sizing: border-box;}
