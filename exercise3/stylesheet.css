@@ -96,4 +96,14 @@ div {
     left: 901px;
     z-index: -2;
 
-}				
+}	
+#square {
+	width: 339px;
+	height: 200px;
+	background: grey;
+	position: absolute;
+    bottom: 101px;
+    left: -20px;
+    z-index: -2;
+}
+
