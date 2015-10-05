@@ -72,5 +72,28 @@ div {
     z-index: -1;
 
 }
+#triangle-upper {
+	width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 300px solid grey;
+    position: absolute;
+    top: 191px;
+    left: 901px;
+    z-index: -1;
 
-					
+}
+	
+#triangle-small {
+	width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid grey;
+    position: absolute;
+    top: 91px;
+    left: 901px;
+    z-index: -2;
+
+}				
