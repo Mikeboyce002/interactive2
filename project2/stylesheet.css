@@ -1,0 +1,54 @@
+#border {
+    border: 100px dashed;}
+
+#padding {
+    padding: 2cm 6cm 6cm 12cm;
+}
+#margin {
+    margin: 3cm 10cm 3cm 4cm;
+}
+h1 {
+    position: absolute;
+    left: 200px;
+    top: 350px;
+}
+ {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+
+#italic{
+    font-style:italic;
+}
+#bold {
+    font-weight:bold;
+}
+#font-size{
+	font-size:2000%;
+}
+#font-family{
+	font-family: impact;
+}
+#font-sized{
+	font-size: 200%;
+}
+
+
+h2 {
+    text-align: left;
+}
+
+h3 {
+    text-align: right;
+}
+h4 {
+	text-align: center;
+}
+
+#line-height {
+    line-height: 20%;
+}
+#text-transform {
+    text-transform:uppercase;
+}

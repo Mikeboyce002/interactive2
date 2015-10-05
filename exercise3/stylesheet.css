@@ -1,0 +1,76 @@
+* {
+	background-color: #BEC6C9;
+
+
+}
+
+div {
+	height: 21px;
+	width: 84px;
+	display: inline-block;
+	position: relative;
+}
+
+#menu {
+	text-align: center;
+	width: 100%;
+	border-bottom: 1px solid #000000;
+	height: 60px;
+}
+
+#one {
+	background-color: black;
+	/*margin-left: 246px;*/
+	margin-top: 20px;
+}
+
+#two {
+	background-color: black;
+	margin-left: 31px;
+}
+
+#three {
+	background-color: black;
+	margin-left: 33px;
+}
+
+#four {
+	background-color: black;
+	margin-left: 27px;
+}
+#five {
+	background-color: black;
+	margin-left: 27px;
+}
+#six {
+	background-color: black;
+	margin-left: 27px;
+}
+
+
+#circle {
+	width: 200px;
+	height: 200px;
+	background: grey;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 1000px;
+	border-radius: 1000px;
+	position: absolute;
+	top:136px;
+	left:240px;
+}
+
+#triangle-up {
+	width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 300px solid grey;
+    position: absolute;
+    top: 191px;
+    left: -81px;
+    z-index: -1;
+
+}
+
+					
