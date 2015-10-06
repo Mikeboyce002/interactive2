@@ -45,10 +45,25 @@ h3 {
 h4 {
 	text-align: center;
 }
+h6 {
+    text-align: right;
+    text-transform: lowercase;
+    
+}
 
 #line-height {
     line-height: 20%;
 }
 #text-transform {
     text-transform:uppercase;
+}
+#fixed {
+    position: fixed;
+    bottom: 20;
+    right: 20;
+    width: 300px;
+    border: 8px solid;
+    padding: 6cm 6cm 6cm 6cm;
+    font-size: 136%;
+    font-family: cursive;
 }
