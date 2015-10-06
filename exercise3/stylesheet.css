@@ -106,4 +106,31 @@ div {
     left: -20px;
     z-index: -2;
 }
+#squared {
+	width: 400px;
+	height: 200px;
+	background: grey;
+	position: absolute;
+    bottom: 101px;
+    left: 901px;
+    z-index: -2;
+}
+#square-small {
+	width: 100px;
+	height: 78px;
+	background: grey;
+	position: absolute;
+    top: 191px;
+    left: 951px;
+    z-index: 2;
+}
 
+#square-tall {
+	width: 70px;
+	height: 100px;
+	background: grey;
+	position: absolute;
+    top: 327px;
+    left: 302px;
+    z-index: 2;
+}
