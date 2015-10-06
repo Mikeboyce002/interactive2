@@ -58,7 +58,6 @@ h6 {
     text-transform:uppercase;
 }
 #fixed {
-    position: fixed;
     bottom: 20;
     right: 20;
     width: 300px;
@@ -66,4 +65,8 @@ h6 {
     padding: 6cm 6cm 6cm 6cm;
     font-size: 136%;
     font-family: cursive;
+    margin-bottom: 1000px;
+}
+#fixed-title {
+    position: fixed;
 }
