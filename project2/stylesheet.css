@@ -98,16 +98,138 @@ h6 {
     color: lime;
 }
 
-@keyframes bounceIn {
+.button {
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    top:600px;
+    width: 30px;
+    height: 30px;
+    background-color: lime;
+    position: absolute;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    animation:bounce 5s linear infinite;
+    -webkit-animation:bounce 5s linear infinite;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;  
+}
+.one {
+    left:40px;
+
+}
+.two {
+    left:80px;
+}
+.three {
+    left:120px;
+}
+.four {
+    left:160px;
+}
+.five {
+    left:200px;
+}
+.six {
+    left:240px;
+}
+.seven {
+    left:280px;
+}
+.eight {
+    left:320px;
+}
+.nine {
+    left:360px;
+}
+.ten {
+    left:400px;
+}
+.eleven {
+    left:440px;
+}
+.twelve{
+    left:480px;
+}
+.thirteen {
+    left:520px;
+}
+@keyframes bounce {
   0% {
-    transform: scale(0.1);
-    opacity: 0;
+    top:-30px;
   }
-  60% {
-    transform: scale(1.2);
-    opacity: 1;
+  25% {
+    top:600px;
+  }
+  50% {
+    top:45px;
   }
   100% {
-    transform: scale(1);
+ top:600px;
   }
+}
+@-webkit-keyframes bounce {
+  0% {
+    top:-30px;
+  }
+  25% {
+    top:600px;
+  }
+  50% {
+    top:45px;
+  }
+  100% {
+ top:600px;
+  }
+}
+@-moz-keyframes bounce {
+  0% {
+    top:-30px;
+  }
+  25% {
+    top:600px;
+  }
+  50% {
+    top:45px;
+  }
+  100% {
+ top:600px;
+  }
+}
+.square {
+    width: 30px;
+    height: 30px;
+/*    border: 1px solid brown;
+*/    position: absolute;
+    background-color: brown;
+    top:600px;
+    z-index: -2;
+}
+.title {
+    width:640px;
+    height:auto;
+    text-align: center;
+    font-family: 'Futura';
+    font-size: 80px;
+    position: absolute;
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 50%;
+    top: 30%;
+    transform:translate(-50%,-50%);
+    animation:title 4s linear infinite;
+    -webkit-animation:title 4s linear infinite;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1; 
+}
+@keyframes title {
+  0% {
+    left:3000px;
+    top:30%;
+  }
+  100% {
+    left: 50%;
+    top: 30%;  }
 }
