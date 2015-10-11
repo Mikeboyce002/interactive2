@@ -90,15 +90,19 @@ h6 {
     -webkit-border-radius: 1000px;
     border-radius: 1000px;
     text-align: center;
-    animation: bounceIn 0.5s;
+    animation: bounceIn 0.7s;
 }
 #nav a {
     padding-top: 39px;
     display: inline-block;
     color: lime;
+
+}
+#nav:hover {
+background: pink;
 }
 
-.button {
+/*.button {
     line-height: 30px;
     vertical-align: middle;
     text-align: center;
@@ -115,47 +119,10 @@ h6 {
     animation-iteration-count: 1;
     -webkit-animation-iteration-count: 1;  
 }
-.one {
-    left:40px;
+*/
 
-}
-.two {
-    left:80px;
-}
-.three {
-    left:120px;
-}
-.four {
-    left:160px;
-}
-.five {
-    left:200px;
-}
-.six {
-    left:240px;
-}
-.seven {
-    left:280px;
-}
-.eight {
-    left:320px;
-}
-.nine {
-    left:360px;
-}
-.ten {
-    left:400px;
-}
-.eleven {
-    left:440px;
-}
-.twelve{
-    left:480px;
-}
-.thirteen {
-    left:520px;
-}
-@keyframes bounce {
+@keyframes bounceIn {
+
   0% {
     top:-30px;
   }
@@ -169,7 +136,7 @@ h6 {
  top:600px;
   }
 }
-@-webkit-keyframes bounce {
+@-webkit-keyframes bounceIn {
   0% {
     top:-30px;
   }
@@ -183,7 +150,7 @@ h6 {
  top:600px;
   }
 }
-@-moz-keyframes bounce {
+@-moz-keyframes bounceIn {
   0% {
     top:-30px;
   }
