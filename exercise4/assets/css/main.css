@@ -1,0 +1,167 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+.canvas.one {
+	background: orange;
+}
+
+.object {
+	position: absolute;
+}
+/* Sphere */
+.sphere {
+	background: white;
+	height: 302px;
+	width: 302px;
+	border-radius: 50%;
+	bottom: 200px;
+	left: 200px;
+	
+}
+/* Pumpkin */
+.pumpkin {
+	background: #FF6B00;
+	height: 121px;
+	width: 121px;
+	border-radius: 40%;
+	bottom: 150px;
+	left: 400px;
+}
+.water-glass-container {
+	height: 225px;
+	width: 100px;
+	bottom: 200px;
+	right: 200px;
+
+}
+.water-glass-container .glass {
+	height: 213px;
+    width: 100px;
+    background: white;
+    bottom: 0;
+    opacity: 0.5;
+
+}
+.water-glass-container .top {
+	height: 25px;
+	width: 100px;
+	border-radius: 50%;
+	background: white;
+	}
+.water-glass-container .bottom {
+	height: 25px;
+	width: 100px;
+	border-radius: 50%;
+	background: white;
+	bottom: -12px;
+	}
+.water-glass-container .water-level {height: 25px;
+	width: 100px;
+	border-radius: 50%;
+	background: white;
+	bottom: 55px;
+	}
+
+/* Canvas 2 */
+.canvas.two {
+	background: #ECEC40;
+}
+.canvas.two .pumpkin {
+	z-index: 1;
+}
+.magnifing-glass {
+	height: 25px;
+	width: 100px;
+	border-radius: 50%;
+	background: white;
+	    bottom: 173px;
+    right: 472px;
+    border: solid 5px black;
+}
+/* Vase */
+
+.vase-container {
+	/*background: indigo;*/
+    width: 100px;
+    height: 325px;
+    bottom: 153px;
+    right: 396px;
+    z-index: 2;
+}
+
+.vase {
+	width: 100px;
+	height: 250px;
+	background: violet;
+	opacity: 0.5;
+	bottom: 0;
+}
+
+.vase-bottom {
+	width: 100px;
+	height: 25px;
+	border-radius: 50%;
+	bottom: -12px;
+	background: white;
+}
+
+.vase-top {
+	width: 100px;
+	height: 25px;
+	border-radius: 50%;
+	top: -12px;
+	background: white;
+	z-index: 2;
+}
+
+.flower.one {
+	left: 20px;
+}
+
+.flower.two {
+	left: 40px;
+}
+
+.flower.three {
+	left: 60px;
+}
+
+.stem {
+	background: green;
+	width: 10px;
+	height: 275px;
+}
+
+.petal {
+	background: indigo;
+	width: 50px;
+	height: 20px;
+	border-radius: 50%;
+	top: -10px;
+}
+.square {
+	width: 100px;
+    height: 38px;
+    background: grey;
+    position: absolute;
+    top: 372px;
+    right: 533px;
+    z-index: 2;
+    -webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+}
+
+
