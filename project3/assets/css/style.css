@@ -1,5 +1,3 @@
-style.css
-
 .letter {
     width: 60px;
     height: 330px;
@@ -8,18 +6,39 @@ style.css
     display: inline-block;
 }
 
-.z {
-    position: relative;
-    height: 100%;
-    width: 100%;
-}
 
-.z .top-bar {
+/* UNIVERSAL */
+
+.top-bar {
     position: absolute;
     top: 0;
     width: 100%;
     height: 35px;
     background: black;
+}
+
+.bottom-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    background: black;
+}
+.middle-bar {
+    position: absolute;
+    bottom: 1.5in;
+    width: 100%;
+    height: 35px;
+    background: black;
+}
+
+
+/* LETTER Z */
+
+.z {
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
 
 .z .middle {
@@ -32,11 +51,116 @@ style.css
     transform: skew(-12.5deg,0);
     z-index: 2;
 }
+/* LETTER T */
 
-.z .bottom-bar {
+.t {
+	 position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.t .middle {
     position: absolute;
-    bottom: 0;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 2px;
+    right: 29px;
+}
+/* LETTER I */
+.i {
+	 position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.i .middle {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 0px;
+    right: 29px;
+}
+/* LETTER L */
+.l {
+	 position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.l .middle {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 0px;
+    right: 58px;
+}
+/* LETTER E */
+.e {
+	 position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.e .middle {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 0px;
+    right: 58px;
+}
+/* LETTER F */
+.f {
+	 position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.f .middle {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 0px;
+    right: 58px;
+}
+/* LETTER H */
+.h {
+	 position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.h .middle {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 0px;
+    right: 58px;
+}
+ .h .middle2 {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 0px;
+    right: 0px;
+}
+/* LETTER O */
+.o {
+	 position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.o .circle {
+    position: absolute;
     width: 100%;
-    height: 35px;
-    background: black;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 50%;
 }
