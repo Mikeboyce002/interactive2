@@ -1,3 +1,5 @@
+* { box-sizing: border-box; } 
+
 .letter {
     width: 60px;
     height: 330px;
@@ -164,3 +166,31 @@
     border: 2px solid black;
     border-radius: 50%;
 }
+/* LETTER V */
+.v {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.v .middle {
+    position: absolute;
+    height: 260px;
+    width: 2px;
+    top: 35px;
+    right: 29px;
+    background: black;
+    transform: skew(-12.5deg,0);
+    z-index: 2;
+}
+ .v .middle2 {
+     position: absolute;
+    height: 260px;
+    width: 2px;
+    top: 35px;
+    left: 29px;
+    background: black;
+    transform: skew(-12.5deg,0);
+    z-index: 2;
+}
+
