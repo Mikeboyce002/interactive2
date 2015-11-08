@@ -3,7 +3,7 @@
 .letter {
     width: 60px;
     height: 330px;
-    background: yellow;
+    background: yellow; 
     margin-right: 30px;
     display: inline-block;
 }
@@ -33,75 +33,150 @@
     height: 35px;
     background: black;
 }
-
-
-/* LETTER Z */
-
-.z {
-    position: relative;
-    height: 100%;
-    width: 100%;
+.small-bar {
+    position: absolute;
+    bottom: 0.5in;
+    width: 64%;
+    height: 35px;
+    background: black;
+    left: 30px;
+}
+.white-bar {
+    position: absolute;
+    bottom: -0.5in;
+    width: 54%;
+    left: 49px;
+    height: 378px;
+    background: white;
+}
+/* LETTER A */
+.a {
+     position: relative;
+     height: 100%;
+     width: 100%;
 }
 
-.z .middle {
+.a .middle {
     position: absolute;
-    height: 260px;
+    height: 327px;
     width: 2px;
-    top: 35px;
-    right: 29px;
+    top: 3px;
+    right: 42px;
     background: black;
-    transform: skew(-12.5deg,0);
+    transform: skew(-5deg,0);
     z-index: 2;
 }
-/* LETTER T */
-
-.t {
-	 position: relative;
-     height: 100%;
-     width: 100%;
-}
-
-.t .middle {
+ .a .middle2 {
     position: absolute;
+    height: 328px;
     width: 2px;
-    height: 330px;
-    background: #000000;
-    top: 2px;
-    right: 29px;
+    top: 3px;
+    left: 42px;
+    background: black;
+    transform: skew(4deg,0);
+    z-index: 80;
 }
-/* LETTER I */
-.i {
-	 position: relative;
+.a .small-bar {
+    position: absolute;
+    bottom: 1.5in;
+    width: 47%;
+    height: 24px;
+    background: black;
+    left: 16px;
+}
+/* LETTER b */
+.b {
+     position: relative;
      height: 100%;
      width: 100%;
 }
 
-.i .middle {
+.b .smallcircle {
+    position: absolute;
+    width: 98%;
+    height: 48%;
+    border: 2px solid black;
+    border-radius: 36%;
+}
+.b .smallcircle2 {
+   position: absolute;
+    width: 98%;
+    height: 48%;
+    bottom: 0px;
+    border: 2px solid black;
+    border-radius: 36%;
+}
+.white-bar2 {
+    position: absolute;
+    bottom: -0.5in;
+    width: 54%;
+    right: 42px;
+    height: 378px;
+    background: white;
+}
+.b .middle {
     position: absolute;
     width: 2px;
     height: 330px;
     background: #000000;
     top: 0px;
-    right: 29px;
+    right: 41px;
 }
-/* LETTER L */
-.l {
-	 position: relative;
+/* LETTER C */
+.c {
+     position: relative;
      height: 100%;
      width: 100%;
 }
 
-.l .middle {
+.c .circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.white-bar {
+    position: absolute;
+    bottom: -0.5in;
+    width: 54%;
+    left: 49px;
+    height: 378px;
+    background: white;
+}
+/* LETTER d */
+.d {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.d .circled {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 39%;
+}
+.white-bar3 {
+    position: absolute;
+    bottom: -0.5in;
+    width: 54%;
+    right: 39px;
+    height: 378px;
+    background: white;
+}
+.d .middle {
     position: absolute;
     width: 2px;
     height: 330px;
     background: #000000;
     top: 0px;
-    right: 58px;
+    right: 39px;
 }
 /* LETTER E */
 .e {
-	 position: relative;
+     position: relative;
      height: 100%;
      width: 100%;
 }
@@ -116,7 +191,7 @@
 }
 /* LETTER F */
 .f {
-	 position: relative;
+     position: relative;
      height: 100%;
      width: 100%;
 }
@@ -129,9 +204,31 @@
     top: 0px;
     right: 58px;
 }
+/* LETTER G */
+.g {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.g .circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.white-bar {
+    position: absolute;
+    bottom: -0.5in;
+    width: 54%;
+    left: 49px;
+    height: 378px;
+    background: white;
+}
 /* LETTER H */
 .h {
-	 position: relative;
+     position: relative;
      height: 100%;
      width: 100%;
 }
@@ -152,6 +249,54 @@
     top: 0px;
     right: 0px;
 }
+/* LETTER I */
+.i {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.i .middle {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 0px;
+    right: 29px;
+}
+/* LETTER T */
+
+.t {
+	 position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.t .middle {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 2px;
+    right: 29px;
+}
+
+/* LETTER L */
+.l {
+	 position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.l .middle {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 0px;
+    right: 58px;
+}
+
 /* LETTER O */
 .o {
 	 position: relative;
@@ -166,7 +311,416 @@
     border: 2px solid black;
     border-radius: 50%;
 }
-/* LETTER V */
+
+
+
+/* LETTER p */
+.p {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.p .smallcircle {
+    position: absolute;
+    width: 98%;
+    height: 48%;
+    border: 2px solid black;
+    border-radius: 36%;
+}
+
+.white-bar2 {
+    position: absolute;
+    bottom: -0.5in;
+    width: 54%;
+    right: 42px;
+    height: 378px;
+    background: white;
+}
+.p .middle {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 0px;
+    right: 41px;
+}
+
+
+/* LETTER j */
+.j {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.j .circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 37%;
+}
+.smallj-bar {
+    position: absolute;
+    /* bottom: 13px; */
+    width: 102%;
+    height: 220px;
+    background: white;
+    top: 0px;
+    bottom: 25px;
+}
+.smallj2-bar {
+    position: absolute;
+    /* bottom: 13px; */
+    width: 118%;
+    right: -33px;
+    height: 36px;
+    background: black;
+    top: 0px;
+    bottom: 25px;
+}
+
+.j .middle {
+    position: absolute;
+    width: 2px;
+    height: 221px;
+    background: #000000;
+    top: 0px;
+    right: 58px;
+}
+.j .middle2 {
+    position: absolute;
+    width: 2px;
+    height: 221px;
+    background: #000000;
+    top: 0px;
+    left: 58px;
+}
+/* LETTER k */
+.k {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.k .smallcircle {
+    position: absolute;
+    width: 98%;
+    height: 48%;
+    border: 2px solid black;
+    border-radius: 36%;
+}
+.k .smallcircle2 {
+   position: absolute;
+    width: 98%;
+    height: 48%;
+    bottom: 0px;
+    border: 2px solid black;
+    border-radius: 36%;
+}
+.white-bar2 {
+    position: absolute;
+    bottom: -0.5in;
+    width: 54%;
+    right: 42px;
+    height: 378px;
+    background: white;
+}
+.k .middle {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 0px;
+    right: 41px;
+}
+.white-bark {
+    position: absolute;
+    top: 0px;
+    width: 63%;
+    left: 19px;
+    height: 64px;
+    background: white;
+}
+.white-bark2 {
+    position: absolute;
+    bottom: 0px;
+    width: 63%;
+    left: 19px;
+    height: 64px;
+    background: white;
+}
+.end {
+    position: absolute;
+    width: 2px;
+    height: 93px;
+    background: black;
+    top: 0px;
+    left: 57px;
+}
+.end2 {
+    position: absolute;
+    width: 2px;
+    height: 93px;
+    background: black;
+    bottom: 0px;
+    left: 57px;
+}
+/* LETTER m */
+.m {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.m .middle {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 0px;
+    right: 58px;
+}
+ .m .middle2 {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 0px;
+    right: 0px;
+}
+.m .middle3 {
+    position: absolute;
+    height: 116px;
+    width: 2px;
+    top: 2px;
+    right: 15px;
+    background: black;
+    transform: skew(-14deg,0);
+    z-index: 0;
+}
+.m .middle4 {
+    position: absolute;
+    height: 115px;
+    width: 2px;
+    top: 2px;
+   left: 14px;
+    background: black;
+    transform: skew(14deg,0);
+    z-index: 0;
+}
+/* LETTER n */
+.n {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.n .middle {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 0px;
+    right: 58px;
+}
+ .n .middle2 {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 0px;
+    right: 0px;
+}
+.n .middle3 {
+    position: absolute;
+    height: 324px;
+    width: 2px;
+    top: 2px;
+    left: 29px;
+    background: black;
+    transform: skew(10deg,0);
+    z-index: 0;
+}
+/* LETTER q */
+.q {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.q .circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.q .small-bar {
+    position: absolute;
+    bottom: -1px;
+    width: 47%;
+    height: 40px;
+    background: black;
+    left: 30px;
+    transform: skew(35deg,0);
+    z-index: 0;
+}
+/* LETTER R */
+.r {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.r .smallcircle {
+    position: absolute;
+    width: 98%;
+    height: 48%;
+    border: 2px solid black;
+    border-radius: 36%;
+}
+.r .smallcircle2 {
+   position: absolute;
+    width: 98%;
+    height: 48%;
+    bottom: 0px;
+    border: 2px solid black;
+    border-radius: 36%;
+}
+.white-bar2 {
+    position: absolute;
+    bottom: -0.5in;
+    width: 54%;
+    right: 42px;
+    height: 378px;
+    background: white;
+}
+.r .middle {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 0px;
+    right: 41px;
+}
+.
+.white-bark2 {
+    position: absolute;
+    bottom: 0px;
+    width: 63%;
+    left: 19px;
+    height: 64px;
+    background: white;
+}
+.end2 {
+    position: absolute;
+    width: 2px;
+    height: 93px;
+    background: black;
+    bottom: 0px;
+    left: 57px;
+}
+/* LETTER s */
+.s {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.s .smallcircle {
+    position: absolute;
+    width: 98%;
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 36%;
+}
+.smalls-bar {
+    position: absolute;
+    /* bottom: 13px; */
+    width: 75%;
+    height: 138px;
+    background: white;
+    left: 25px;
+    top: 25px;
+}
+.smalls2-bar {
+    position: absolute;
+    /* bottom: 13px; */
+    width: 75%;
+    height: 140px;
+    background: white;
+    right: 25px;
+    bottom: 25px;
+}
+.s .smallcircle2 {
+   position: absolute;
+    width: 98%;
+    height: 51%;
+    bottom: 0px;
+    border: 2px solid black;
+    border-radius: 35%;
+}
+.s .smallcircle4 {
+    position: absolute;
+    width: 96%;
+    height: 35%;
+    border: 8px solid white;
+    border-radius: 61%;
+    top: 162px;
+    right: 21px;
+}
+
+.s .smallcircle5 {
+    position: absolute;
+    width: -16%;
+    height: 24%;
+    border: 30px solid white;
+    border-radius: 20%;
+    bottom: 167px;
+    left: 10px;
+}
+/* LETTER U */
+.u {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.u .circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 37%;
+}
+.smallu-bar {
+    position: absolute;
+    /* bottom: 13px; */
+    width: 102%;
+    height: 140px;
+    background: white;
+    top: 0px;
+    bottom: 25px;
+}
+.u .middle {
+    position: absolute;
+    width: 2px;
+    height: 221px;
+    background: #000000;
+    top: 0px;
+    right: 58px;
+}
+.u .middle2 {
+    position: absolute;
+    width: 2px;
+    height: 221px;
+    background: #000000;
+    top: 0px;
+    left: 58px;
+}
+/* LETTER v */
 .v {
      position: relative;
      height: 100%;
@@ -174,6 +728,178 @@
 }
 
 .v .middle {
+    position: absolute;
+    height: 327px;
+    width: 2px;
+    top: 2px;
+    right: 14px;
+    background: black;
+    transform: skew(-5deg,0);
+    z-index: 2;
+}
+ .v .middle2 {
+    position: absolute;
+    height: 327px;
+    width: 2px;
+    top: 2px;
+    left: 14px;
+    background: black;
+    transform: skew(5deg,0);
+    z-index: 80;
+}
+
+/* LETTER w */
+.w {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.w .middle {
+    position: absolute;
+    height: 327px;
+    width: 2px;
+    top: 2px;
+    right: 6px;
+    background: black;
+    transform: skew(-3deg,0);
+    z-index: 2;
+}
+ .w .middle2 {
+    position: absolute;
+    height: 327px;
+    width: 2px;
+    top: 2px;
+    left: 6px;
+    background: black;
+    transform: skew(3deg,0);
+    z-index: 80;
+}
+.w .middle3 {
+    position: absolute;
+    height: 327px;
+    width: 2px;
+    top: 2px;
+    right: 36px;
+    background: black;
+    transform: skew(-2deg,0);
+    z-index: 80;
+}
+.w .middle4 {
+    position: absolute;
+    height: 327px;
+    width: 2px;
+    top: 2px;
+    left: 36px;
+    background: black;
+    transform: skew(2deg,0);
+    z-index: 80;
+}
+/* LETTER X */
+.x {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.x .middle {
+    position: absolute;
+    height: 330px;
+    width: 2px;
+    top: 1px;
+    right: 29px;
+    background: black;
+    transform: skew(-9.5deg,0);
+    z-index: 2;
+}
+ .x .middle2 {
+    position: absolute;
+    height: 327px;
+    width: 2px;
+    top: 2px;
+    left: 29px;
+    background: black;
+    transform: skew(10deg,0);
+    z-index: 72;
+}
+/* LETTER y */
+.y {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.y .smallcircle {
+    position: absolute;
+    width: 98%;
+    height: 48%;
+    border: 2px solid black;
+    border-radius: 36%;
+}
+.y .smallcircle2 {
+   position: absolute;
+    width: 98%;
+    height: 48%;
+    bottom: 0px;
+    border: 2px solid black;
+    border-radius: 36%;
+}
+.white-bar2 {
+    position: absolute;
+    bottom: -0.5in;
+    width: 54%;
+    right: 42px;
+    height: 378px;
+    background: white;
+}
+.y .middle {
+    position: absolute;
+    width: 2px;
+    height: 174px;
+    background: #000000;
+    top: 156px;
+    right: 28px;
+}
+.white-bary {
+    position: absolute;
+    top: 0px;
+    width: 66%;
+    left: 18px;
+    height: 64px;
+    background: white;
+}
+.white-bary2 {
+    position: absolute;
+    top: 0px;
+    width: 63%;
+    right: 22px;
+    height: 64px;
+    background: white;
+}
+.endy {
+    position: absolute;
+    width: 2px;
+    height: 93px;
+    background: black;
+    top: 0px;
+    left: 57px;
+}
+.endy2 {
+    position: absolute;
+    width: 2px;
+    height: 93px;
+    background: black;
+    top: 0px;
+    right: 58px;
+}
+/* LETTER Z */
+.z {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.z .middle {
     position: absolute;
     height: 260px;
     width: 2px;
@@ -183,14 +909,152 @@
     transform: skew(-12.5deg,0);
     z-index: 2;
 }
- .v .middle2 {
-     position: absolute;
+/* LETTER zero */
+.zero {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.zero .circle {
+    position: absolute;
+    width: 85%;
+    left: 4px;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 70%;
+}
+/* LETTER one */
+.one {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.one .middle {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 0px;
+    right: 29px;
+}
+.num-bar {
+    position: absolute;
+    top: 0px;
+    width: 49%;
+    height: 35px;
+    background: black;
+    right: 30px;
+}
+/* LETTER two */
+.two {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.two .middle {
+    position: absolute;
     height: 260px;
     width: 2px;
-    top: 35px;
-    left: 29px;
+    top: 68px;
+    right: 29px;
     background: black;
     transform: skew(-12.5deg,0);
     z-index: 2;
+}
+.bottomnum-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: black;
+}
+.two .smallcirclenum {
+   position: absolute;
+    width: 100%;
+    height: 48%;
+    top: 0px;
+    border: 2px solid black;
+    border-radius: 36%;
+}
+.white-barnum {
+    position: absolute;
+    top: 69px;
+    width: 104%;
+    /* right: 20px; */
+    height: 131px;
+    background: white;
+}
+/* LETTER three */
+.three {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.three .smallcircle {
+    position: absolute;
+    width: 98%;
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 36%;
+}
+.three .smallcircle2 {
+   position: absolute;
+    width: 98%;
+    height: 51%;
+    bottom: 0px;
+    border: 2px solid black;
+    border-radius: 36%;
+}
+.white-bar2 {
+    position: absolute;
+    bottom: -0.5in;
+    width: 54%;
+    right: 42px;
+    height: 378px;
+    background: white;
+}
+/* LETTER four */
+.four {
+     position: relative;
+     height: 100%;
+     width: 100%;
+}
+
+.four .middle {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 0px;
+    right: 58px;
+}
+ .four .middle2 {
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background: #000000;
+    top: 0px;
+    right: 0px;
+}
+.four .middle3 {
+    position: absolute;
+    height: 116px;
+    width: 2px;
+    top: 2px;
+    right: 30px;
+    background: black;
+    transform: skew(-27deg,0);
+    z-index: 0;
+}
+.four .middle-bar {
+    position: absolute;
+    top: 117px;
+    width: 97%;
+    height: 2px;
+    background: black;
 }
 
