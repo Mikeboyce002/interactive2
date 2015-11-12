@@ -3,7 +3,7 @@
 .letter {
     width: 60px;
     height: 330px;
-    /*background: yellow; */ 
+    background: yellow; 
     margin-right: 30px;
     display: inline-block;
 }
@@ -46,7 +46,7 @@
     bottom: -0.5in;
     width: 54%;
     left: 49px;
-    height: 378px;
+    height: 329px;
     background: white;
 }
 /* LETTER A */
@@ -59,7 +59,7 @@
 .a .middle {
     position: absolute;
     height: 327px;
-    width: 2px;
+    width: 1.5px;
     top: 3px;
     right: 42px;
     background: black;
@@ -69,7 +69,7 @@
  .a .middle2 {
     position: absolute;
     height: 328px;
-    width: 2px;
+    width: 1.7px;
     top: 3px;
     left: 42px;
     background: black;
@@ -79,10 +79,10 @@
 .a .small-bar {
     position: absolute;
     bottom: 1.5in;
-    width: 47%;
+    width: 45.6%;
     height: 24px;
     background: black;
-    left: 16px;
+    left: 17px;
 }
 /* LETTER b */
 .b {
@@ -95,32 +95,29 @@
     position: absolute;
     width: 98%;
     height: 48%;
-    border: 2px solid black;
-    border-radius: 36%;
+    border: 1.7px solid black;
+     /* border-radius: 36%; */
+    border-top-right-radius: 36%;
+    border-bottom-right-radius: 36%;
 }
 .b .smallcircle2 {
    position: absolute;
     width: 98%;
     height: 48%;
     bottom: 0px;
-    border: 2px solid black;
-    border-radius: 36%;
+    border: 1.7px solid black;
+     /* border-radius: 36%; */
+    border-top-right-radius: 36%;
+    border-bottom-right-radius: 36%;
 }
-.white-bar2 {
-    position: absolute;
-    bottom: -0.5in;
-    width: 54%;
-    right: 42px;
-    height: 378px;
-    background: white;
-}
+
 .b .middle {
     position: absolute;
-    width: 2px;
+    width: 1.7px;
     height: 330px;
     background: #000000;
     top: 0px;
-    right: 41px;
+    left: 0px;
 }
 /* LETTER C */
 .c {
@@ -168,7 +165,7 @@
 }
 .d .middle {
     position: absolute;
-    width: 2px;
+    width: 1.5px;
     height: 330px;
     background: #000000;
     top: 0px;
@@ -183,11 +180,11 @@
 
 .e .middle {
     position: absolute;
-    width: 2px;
+    width: 1.5px;
     height: 330px;
     background: #000000;
     top: 0px;
-    right: 58px;
+    left: 0px;
 }
 /* LETTER F */
 .f {
@@ -243,7 +240,7 @@
 }
  .h .middle2 {
     position: absolute;
-    width: 2px;
+    width: 1.5px;
     height: 330px;
     background: #000000;
     top: 0px;
@@ -258,7 +255,7 @@
 
 .i .middle {
     position: absolute;
-    width: 2px;
+    width: 1.7px;
     height: 330px;
     background: #000000;
     top: 0px;
@@ -308,11 +305,11 @@
 }
 .j .middle2 {
     position: absolute;
-    width: 2px;
+    width: 1.5px;
     height: 221px;
     background: #000000;
     top: 0px;
-    left: 58px;
+    right: 0px;
 }
 /* LETTER k */
 .k {
@@ -325,60 +322,56 @@
     position: absolute;
     width: 98%;
     height: 48%;
-    border: 2px solid black;
-    border-radius: 36%;
+    border: 1.7px solid black;
+   /* border-radius: 36%; */
+    border-top-right-radius: 36%;
+    border-bottom-right-radius: 36%;
 }
 .k .smallcircle2 {
-   position: absolute;
+    position: absolute;
     width: 98%;
     height: 48%;
     bottom: 0px;
-    border: 2px solid black;
-    border-radius: 36%;
-}
-.white-bar2 {
-    position: absolute;
-    bottom: -0.5in;
-    width: 54%;
-    right: 42px;
-    height: 378px;
-    background: white;
+    border: 1.7px solid black;
+    /* border-radius: 36%; */
+    border-top-right-radius: 36%;
+    border-bottom-right-radius: 36%;
 }
 .k .middle {
     position: absolute;
-    width: 2px;
+    width: 1.5px;
     height: 330px;
     background: #000000;
     top: 0px;
-    right: 41px;
+    left: 0px;
 }
-.white-bark {
+.k .white-bark {
     position: absolute;
     top: 0px;
-    width: 63%;
-    left: 19px;
+    width: 100%;
+    /* left: 19px; */
     height: 64px;
     background: white;
 }
-.white-bark2 {
+.k .white-bark2 {
     position: absolute;
     bottom: 0px;
-    width: 63%;
-    left: 19px;
-    height: 64px;
+    width: 98%;
+    /* left: 19px; */
+    height: 92px;
     background: white;
 }
 .end {
     position: absolute;
-    width: 2px;
+    width: 1.7px;
     height: 93px;
     background: black;
     top: 0px;
-    left: 57px;
+    left: 58px;
 }
 .end2 {
     position: absolute;
-    width: 2px;
+    width: 1.7px;
     height: 93px;
     background: black;
     bottom: 0px;
@@ -393,11 +386,11 @@
 
 .l .middle {
     position: absolute;
-    width: 2px;
+    width: 1.7px;
     height: 330px;
     background: #000000;
     top: 0px;
-    right: 58px;
+    right: 59px;
 }
 /* LETTER m */
 .m {
@@ -416,7 +409,7 @@
 }
  .m .middle2 {
     position: absolute;
-    width: 2px;
+    width: 1.5px;
     height: 330px;
     background: #000000;
     top: 0px;
@@ -424,23 +417,23 @@
 }
 .m .middle3 {
     position: absolute;
-    height: 116px;
-    width: 2px;
+    height: 327px;
+    width: 1.5px;
     top: 2px;
-    right: 15px;
+    right: 14px;
     background: black;
-    transform: skew(-14deg,0);
-    z-index: 0;
+    transform: skew(-5deg,0);
+    z-index: 2;
 }
 .m .middle4 {
-    position: absolute;
-    height: 115px;
-    width: 2px;
+ position: absolute;
+    height: 327px;
+    width: 1.5px;
     top: 2px;
-   left: 14px;
+    left: 15px;
     background: black;
-    transform: skew(14deg,0);
-    z-index: 0;
+    transform: skew(5deg,0);
+    z-index: 80;
 }
 /* LETTER n */
 .n {
@@ -451,11 +444,11 @@
 
 .n .middle {
     position: absolute;
-    width: 2px;
+    width: 1.5px;
     height: 330px;
     background: #000000;
     top: 0px;
-    right: 58px;
+    right: 57px;
 }
  .n .middle2 {
     position: absolute;
@@ -467,10 +460,10 @@
 }
 .n .middle3 {
     position: absolute;
-    height: 324px;
-    width: 2px;
+    height: 321px;
+    width: 1.7px;
     top: 2px;
-    left: 29px;
+    left: 30px;
     background: black;
     transform: skew(10deg,0);
     z-index: 0;
@@ -501,27 +494,21 @@
 
 .p .smallcircle {
     position: absolute;
-    width: 98%;
+    width: 100%;
     height: 48%;
-    border: 2px solid black;
-    border-radius: 36%;
-}
-
-.white-bar2 {
-    position: absolute;
-    bottom: -0.5in;
-    width: 54%;
-    right: 42px;
-    height: 378px;
-    background: white;
+    left: 0px;
+    border: 1.7px solid black;
+    /* border-radius: 36%; */
+    border-top-right-radius: 36%;
+    border-bottom-right-radius: 36%;
 }
 .p .middle {
     position: absolute;
-    width: 2px;
-    height: 330px;
+    width: 1.5px;
+    height: 172px;
     background: #000000;
-    top: 0px;
-    right: 41px;
+    bottom: 0px;
+    left: 0px;
 }
 
 
@@ -560,49 +547,53 @@
     position: absolute;
     width: 98%;
     height: 48%;
-    border: 2px solid black;
-    border-radius: 36%;
+    border: 1.7px solid black;
+    /* border-radius: 36%; */
+    border-top-right-radius: 36%;
+    border-bottom-right-radius: 36%;
 }
 .r .smallcircle2 {
    position: absolute;
     width: 98%;
     height: 48%;
     bottom: 0px;
-    border: 2px solid black;
-    border-radius: 36%;
+    border: 1.7px solid black;
+    /* border-radius: 36%; */
+    border-top-right-radius: 36%;
+    border-bottom-right-radius: 36%;
 }
-.white-bar2 {
+.r .white-bar2 {
     position: absolute;
-    bottom: -0.5in;
+    bottom: 0px;
     width: 54%;
     right: 42px;
-    height: 378px;
+    height: 329px;
     background: white;
 }
 .r .middle {
     position: absolute;
-    width: 2px;
+    width: 1.5px;
     height: 330px;
     background: #000000;
     top: 0px;
-    right: 41px;
+    left: 0px;
 }
-.
-.white-bark2 {
+
+.r .white-bark2 {
     position: absolute;
     bottom: 0px;
-    width: 63%;
-    left: 19px;
-    height: 64px;
+    width: 100%;
+    left: 0px;
+    height: 93px;
     background: white;
 }
-.end2 {
+.r .end2 {
     position: absolute;
-    width: 2px;
+    width: 1.7px;
     height: 93px;
     background: black;
     bottom: 0px;
-    left: 57px;
+    left: 57.5px;
 }
 /* LETTER s */
 .s {
