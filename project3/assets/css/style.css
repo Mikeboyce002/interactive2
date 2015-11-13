@@ -155,7 +155,7 @@
     border: 2px solid black;
     border-radius: 27%;
 }
-.white-bar3 {
+.d .white-bar3 {
     position: absolute;
     bottom: 0px;
     width: 54%;
@@ -238,7 +238,7 @@
     top: 0px;
     right: 58px;
 }
- .h .middle2 {
+.h .middle2 {
     position: absolute;
     width: 1.5px;
     height: 330px;
@@ -275,7 +275,7 @@
     border: 2px solid black;
     border-radius: 37%;
 }
-.smallj-bar {
+.j .smallj-bar {
     position: absolute;
     /* bottom: 13px; */
     width: 102%;
@@ -284,7 +284,7 @@
     top: 0px;
     bottom: 25px;
 }
-.smallj2-bar {
+.j .smallj2-bar {
     position: absolute;
     /* bottom: 13px; */
     width: 118%;
@@ -361,21 +361,21 @@
     height: 92px;
     background: white;
 }
-.end {
+.k .end {
     position: absolute;
     width: 1.7px;
     height: 93px;
     background: black;
     top: 0px;
-    left: 57.5px;
+    left: 57px;
 }
-.end2 {
+.k .end2 {
     position: absolute;
     width: 1.7px;
     height: 93px;
     background: black;
     bottom: 0px;
-    left: 57.5px;
+    left: 57px;
 }
 /* LETTER L */
 .l {
@@ -407,7 +407,7 @@
     top: 0px;
     right: 58px;
 }
- .m .middle2 {
+.m .middle2 {
     position: absolute;
     width: 1.5px;
     height: 330px;
@@ -450,7 +450,7 @@
     top: 0px;
     right: 57px;
 }
- .n .middle2 {
+.n .middle2 {
     position: absolute;
     width: 2px;
     height: 330px;
@@ -726,7 +726,7 @@
     transform: skew(-5deg,0);
     z-index: 2;
 }
- .v .middle2 {
+.v .middle2 {
     position: absolute;
     height: 327px;
     width: 1.7px;
@@ -754,7 +754,7 @@
     transform: skew(-3deg,0);
     z-index: 2;
 }
- .w .middle2 {
+.w .middle2 {
     position: absolute;
     height: 327px;
     width: 1.7px;
@@ -801,7 +801,7 @@
     transform: skew(-9.5deg,0);
     z-index: 2;
 }
- .x .middle2 {
+.x .middle2 {
     position: absolute;
     height: 327px;
     width: 2px;
@@ -928,7 +928,7 @@
     top: 0px;
     right: 29px;
 }
-.num-bar {
+.one .num-bar {
     position: absolute;
     top: 0px;
     width: 49%;
@@ -953,7 +953,7 @@
     transform: skew(-13deg,0);
     z-index: 2;
 }
-.bottomnum-bar {
+.two .bottomnum-bar {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -969,7 +969,7 @@
     border: 2px solid black;
     border-radius: 48%;
 }
-.white-barnum {
+.two .white-barnum {
     position: absolute;
     top: 69px;
     width: 104%;
@@ -1063,7 +1063,7 @@
     border: 2px solid black;
     border-radius: 34%;
 }
-.smallfive-bar {
+.five .smallfive-bar {
     position: absolute;
     /* bottom: 13px; */
     width: 75%;
@@ -1072,7 +1072,7 @@
     left: 25px;
     top: 2px;
 }
-.smallfive2-bar {
+.five .smallfive2-bar {
     position: absolute;
     /* bottom: 13px; */
     width: 75%;
@@ -1121,9 +1121,9 @@
     border: 1.7px solid black;
     border-radius: 50%;
 }
-.white-bar {
+.six .white-bar {
     position: absolute;
-    bottom: -0.5in;
+    bottom: 0px;
     width: 54%;
     left: 49px;
     height: 378px;
@@ -1135,7 +1135,7 @@
     bottom: 0px;
     left: 9.3px;
     height: 48%;
-    border: 2px solid black;
+    border: 1.5px solid black;
     border-radius: 66%;
 }
 /* LETTER seven */
@@ -1148,7 +1148,7 @@
 .seven .middle {
     position: absolute;
     height: 330px;
-    width: 1.7px;
+    width: 1px;
     top: 1px;
     right: 29px;
     background: black;
