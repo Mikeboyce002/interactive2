@@ -328,7 +328,7 @@ html, body {
     height: 221px;
     background: #000000;
     top: 0px;
-    right: -1px;
+    right: 0px;
 }
 /* LETTER k */
 .k {
@@ -718,7 +718,7 @@ html, body {
     height: 191px;
     background: #000000;
     top: 0px;
-    right: 58.5px;
+    right: 59px;
 }
 .u .middle2 {
     position: absolute;
@@ -726,7 +726,7 @@ html, body {
     height: 191px;
     background: #000000;
     top: 0px;
-    left: 59px;
+    left: 58.5px;
 }
 /* LETTER v */
 .v {
