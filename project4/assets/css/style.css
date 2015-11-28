@@ -40,6 +40,16 @@ a {
     width:960px;
     padding:10px; 
 }
+#section3 {
+    width:350px;
+    padding:10px; 
+    float:right;
+}
+#section4 {
+    width:670px;
+    padding:10px; 
+    float:right;
+}
 #footer {
     background-color:black;
     color:white;
@@ -55,12 +65,9 @@ h2 {
     font-size: 6em;
     margin-bottom: 20px;
 }
+
 h3 {
     font-size: 2em;
     margin-bottom: 2px;
     color:red;
-}
-#img {
-    float:left;
-    padding:5px;
 }
