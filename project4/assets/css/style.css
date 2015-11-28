@@ -23,13 +23,21 @@ a {
 #nav a {
     background: white;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 38px;
     font-weight: bold;
 }
 #nav a.islands {color:red;}
+#nav a.things {color:rgba(246, 114, 5, 0.72);}
+#nav a.history {color:#00A9FF;}
+#nav a.family {color:green;}
+#nav a.trip {color:black;}
 #section {
     width:350px;
     float:left;
+    padding:10px; 
+}
+#section2 {
+    width:960px;
     padding:10px; 
 }
 #footer {
@@ -42,4 +50,17 @@ a {
 h1 {
     font-size: 8em;
     margin-bottom: 20px;
+}
+h2 {
+    font-size: 6em;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 2em;
+    margin-bottom: 2px;
+    color:red;
+}
+#img {
+    float:left;
+    padding:5px;
 }
