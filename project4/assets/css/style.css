@@ -71,10 +71,4 @@ h3 {
     margin-bottom: 2px;
     color:red;
 }
-.container2 {
-    position:relative;
-    width:500px;
-    height:500px;
-    border:1px solid red;
-    overflow:hidden;
-}
+
