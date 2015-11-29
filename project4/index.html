@@ -28,11 +28,7 @@
   <a href="family.html" class="family">The Royal Family</a>
   <a href="trip.html" class="trip">Book your trip</a>
   </div>
-<div id="imgGallary" class="container2">
-    <img src="http://40.media.tumblr.com/d1a1ed8c5b29a18de1b2ff3270cafa74/tumblr_nyjfn0kTCt1t7nfxjo1_500.jpg" />
-    <img src="http://36.media.tumblr.com/926c584331069863079cf7e0adf16c1e/tumblr_nya8m5IxFd1t7nfxjo1_500.jpg" />
-    <img src="http://40.media.tumblr.com/0eb97f928b3a92fe721eaebd5f08663c/tumblr_nyal2wOcYP1t7nfxjo1_500.jpg" />
-</div>
+
   <div id="section">
   <img src="assets/images/main.png">
 
@@ -51,23 +47,7 @@
   </div>
 
 </div>
-<script>$(document).ready(function(){
-        var imgLen = document.getElementById('imgGallary');
-        var images = imgLen.getElementsByTagName('img');
-        var counter = 1;
 
-        if(counter <= images.length){
-            setInterval(function(){
-                images[0].src = images[counter].src;
-                console.log(images[counter].src);
-                counter++;
-
-                if(counter === images.length){
-                    counter = 1;
-                }
-            },3000);
-        }
-});</script>
 </body>
 
 </html>
