@@ -26,18 +26,37 @@
   <a href="islands.html" class="islands">Explore our Islands</a>
   <a href="family.html" class="family">The Royal Family</a>
   <a href="trip.html" class="trip">Book your trip</a>
-  
+
   </div>
 
   <p><div id="section5">
-  When visiting Themyscira, one of the many things you can do, is to take part in the Amazon games. The first Games held under the auspices of the IOC was hosted in the Panathenaic stadium in Athens in 1896. The Games brought together 14 nations and 241 athletes who competed in 43 events. The Amazon Games program consists of 35 sports, 30 disciplines and nearly 400 events. For example, wrestling is a Summer Olympic sport, comprising two disciplines: Greco-Roman and Freestyle. It is further broken down into fourteen events, each representing a different weight class. The Summer Olympics program includes 26 sports, while the Winter Olympics program features 15 sports. Athletics, swimming, fencing, and artistic gymnastics are the only summer sports that have never been absent from the Amazon program. Cross-country skiing, figure skating, ice hockey, Nordic combined, ski jumping, and speed skating have been featured at every Winter Olympics program since its inception in 1924. Current Amazon sports, like badminton, basketball, and volleyball, first appeared on the program as demonstration sports, and were later promoted to full Amazon sports. Come and take part in the chance of a lifetime. Bullets and bracelets anyone? How about Horseback riding? Yoga? Or just relaxing at the beach with your girlfriends, there is always plenty of things to do at Themyscira resorts!
+  When visiting Themyscira, one of the many things you can do, is to take part in the Amazon games. The first Games held under the auspices of the IOC was hosted in the Panathenaic stadium in Athens in 1896. The Games brought together 14 nations and 241 athletes who competed in 43 events. The Amazon Games program consists of 35 sports, 30 disciplines and nearly 400 events. For example, wrestling is a Summer Olympic sport, comprising two disciplines: Greco-Roman and Freestyle. It is further broken down into fourteen events, each representing a different weight class. The Summer Olympics program includes 26 sports, while the Winter Olympics program features 15 sports. Athletics, swimming, fencing, and artistic gymnastics are the only summer sports that have never been absent from the Amazon program. Cross-country skiing, figure skating, ice hockey, Nordic combined, ski jumping, and speed skating have been featured at every Winter Olympics program since its inception in 1924. Current Amazon sports, like badminton, basketball, and volleyball, first appeared on the program as demonstration sports, and were later promoted to full Amazon sports. Come and take part in the chance of a lifetime. Bullets and bracelets anyone? Visit the Amazon Salon and get your hair done in the latest Amazon styles.How about Horseback riding? Yoga? Visiting the communications center, or the Wild Animal park,or just relaxing at the beach with your girlfriends, and so much more..there is always plenty of things to do at Themyscira resorts!
   </p></div>
-  <img src="assets/images/games2.png">
+  <div id="imgGallary" class="container3">
+  <img src="assets/images/games3.png">  
+   <img src="assets/images/weight.png"> 
+   <img src="assets/images/horse2.png"> 
+   <img src="assets/images/music.png"> 
+   <img src="assets/images/weight2.png"> 
+   <img src="assets/images/yoga2.png">    
+   <img src="assets/images/fence.png"> 
+   <img src="assets/images/salon.png"> 
+   <img src="assets/images/state.png"> 
+   <img src="assets/images/state2.png"> 
+   <img src="assets/images/wild.png"> 
+   <img src="assets/images/dive.png"> 
+   <img src="assets/images/dive2.png"> 
+   <img src="assets/images/beach2.png"> 
+   <img src="assets/images/games2.png">
+   
+</div>
+ 
   <img src="assets/images/games.png">
   <img src="assets/images/horse.png">
    <div id="section6"><img src="assets/images/games4.png"></div>
    <img src="assets/images/yoga.png">
     <div id="section6"><img src="assets/images/beach.png"></div>
+ 
 
 
   <p><div id="section5">
@@ -53,7 +72,29 @@
   </div>
 
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
+<script>
+
+$(document).ready(function(){
+        var imgLen = document.getElementById('imgGallary');
+        var images = imgLen.getElementsByTagName('img');
+        var counter = 1;
+
+        if(counter <= images.length){
+            setInterval(function(){
+                images[0].src = images[counter].src;
+                console.log(images[counter].src);
+                counter++;
+
+                if(counter === images.length){
+                    counter = 1;
+                }
+            },3000);
+        }
+});
+
+</script>
 </body>
 
 </html>

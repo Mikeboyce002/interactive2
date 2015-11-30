@@ -96,5 +96,12 @@ h4 {
     border:1px solid red;
     overflow:hidden;
 }
+.container3 {
+    position:relative;
+    width:384px;
+    height:240px;
+    border:1px solid red;
+    overflow:hidden;
+}
 
 
