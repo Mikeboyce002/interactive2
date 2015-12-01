@@ -83,7 +83,7 @@ h3 {
     color:red;
 }
 h4 {
-    background: red;
+    background: magenta;
     /*display: inline-block;*/
     padding: 10px 35px;
     font-weight: bold;
@@ -102,6 +102,11 @@ h4 {
     height:240px;
     border:1px solid red;
     overflow:hidden;
+}
+
+#nav a.trip {
+  color: white;
+  background: magenta;
 }
 
 
